@@ -63,8 +63,8 @@ public class TestPassedFakeRowKeysToFilterDuringScans {
 
         table = hBaseTestingUtility.createTable(TABLE_NAME, CF);
 
-        loadDataUsingPuts();
-        //bulkload();
+        // loadDataUsingPuts();
+        bulkload();
     }
 
     @Test
